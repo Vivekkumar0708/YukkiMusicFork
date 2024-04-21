@@ -22,10 +22,6 @@ async def assis_change(_, message: Message):
         return await message.reply_text(usage)
     a = await get_assistant(message.chat.id)
     DETAILS = f"ʏᴏᴜʀ ᴄʜᴀᴛ's ᴀssɪsᴛᴀɴᴛ ʜᴀs ʙᴇᴇɴ ᴄʜᴀɴɢᴇᴅ ғʀᴏᴍ [{a.name}](https://t.me/{a.username}) "
-    try:
-        await a.leave_chat(message.chat.id)
-    except:
-        pass
     b = await set_assistant(message.chat.id)
     DETAILS += f"ᴛᴏ [{b.name}](https://t.me/{b.username})"
     try:
