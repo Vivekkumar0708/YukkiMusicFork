@@ -36,6 +36,5 @@ async def text_to_speech(_, message: Message):
         await m.delete()
         audio.close()
     except Exception as e:
-        await m.edit(e)
-        e = traceback.format_exc()
+        await m.edit(e)
         print(e)
