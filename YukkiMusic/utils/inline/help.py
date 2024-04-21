@@ -82,11 +82,7 @@ def second_page(_):
 
     seconds_page = InlineKeyboardMarkup(
         [
-            [
-                InlineKeyboardButton(
-                    text=_["H_B_11"], callback_data="help_callback hb10"
-                ),
-            ],
+
             lower_button,
         ]
     )
