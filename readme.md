@@ -21,14 +21,22 @@
 <h4>Click the button below to deploy Yukki Music Bot on Heroku!</h4>    
 <a href="https://dashboard.heroku.com/new?template=https://github.com/Vivekkumar0708/YukkiMusicFork/blob/master"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
-
-## 🖇 Generating Pyrogram String Session
-
-<p>
-<a href="https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
-<a href="https://t.me/YukkiStringBot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
-</p>
-
+## CONFIG
+```
+API_ID - GET IT FROM my.telegram.org
+API_HASH - GET IT FROM my.telegram.org
+BOT_TOKEN - GET IT FROM @Botfather IN TELEGRAM
+MONGO_DB_URI - A MONGODB URL GET IT FROM MONGODB SITE
+LOG_GROUP_ID - YOUR LOGROUP ID CREATE A GROUP ADD ROSE BOT AND TYPE /id
+MUSIC_BOT_NAME - A NAME FOR YOUR MUSIC BOT USE SIMPLE LETTERS
+OWNER_ID - YOUR ID GET IT FROM ROSE BOT
+SUPPORT_CHANNEL - YOUR SUPPORT CHANNEL LINK MAKE SURE START WITH Https://t.me/
+SUPPORT_GROUP - YOUR SUPPORT GROUP LINK Like:- https://t.me/vk_zone
+AUTO_LEAVING_ASSISTANT -  SET TRUE FOR YOU'RE ASSISTANT ACCOUNT WILL LEAVE CHATS AUTOMATICALLY
+ASSISTANT_LEAVE_TIME - TIME AFTER ASSISITANT AUTOMATICALLY LEAVE CHATS REMEMBER TO GIVE VALUE IN SECONDS
+SET_CMDS - SET THIS TRUE FOR WHEN Bot Run Automatically Bot Set HER COMMAND MENU
+START_IMG_URL - AN IMAGE LINK THAT YOU WANT TO SEND WHEN /start IS USED
+```
 ## 🖇 VPS Deployment
 
 Checkout [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
