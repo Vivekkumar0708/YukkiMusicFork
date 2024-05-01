@@ -30,7 +30,7 @@
 - Install tmux to keep running your bot when you close the terminal by :
 `sudo apt install tmux && tmux`
 - Finally run the bot by :
-`bash start`
+`python3 -m YukkiMusic`
 - For getting out from tmux session : Press `Ctrl+b` and then `d`<br>
 
 
