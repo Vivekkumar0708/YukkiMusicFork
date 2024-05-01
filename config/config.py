@@ -142,7 +142,7 @@ SPOTIFY_CLIENT_SECRET = getenv(
 
 # ________________________________________________________________________________#
 # Maximum number of video calls allowed on bot. You can later set it via /set_video_limit on telegram
-VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "5"))
+VIDEO_STREAM_LIMIT = int(getenv("VIDEO_STREAM_LIMIT", "999"))
 
 
 # ________________________________________________________________________________#
