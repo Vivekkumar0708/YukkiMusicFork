@@ -19,7 +19,7 @@ from YukkiMusic.misc import SUDOERS
 from YukkiMusic.utils.database import get_client
 
 
-@app.on_message(filters.command("setpfp", prefixes=ASSISTANT_PREFIX) & SUDOERS)
+@app.on_message(filters.command("setpfp") & SUDOERS)
 async def set_pfp(client, message):
     from YukkiMusic.core.userbot import assistants
 
@@ -36,7 +36,7 @@ async def set_pfp(client, message):
             await eor(message, text=e)
 
 
-@app.on_message(filters.command("setbio", prefixes=ASSISTANT_PREFIX) & SUDOERS)
+@app.on_message(filters.command("setbio") & SUDOERS)
 async def set_bio(client, message):
     from YukkiMusic.core.userbot import assistants
 
@@ -55,7 +55,7 @@ async def set_bio(client, message):
         return await eor(message, text="Give some text to set as bio.")
 
 
-@app.on_message(filters.command("setname", prefixes=ASSISTANT_PREFIX) & SUDOERS)
+@app.on_message(filters.command("setname") & SUDOERS)
 async def set_name(client, message):
     from YukkiMusic.core.userbot import assistants
 
@@ -74,7 +74,7 @@ async def set_name(client, message):
         return await eor(message, text="Give some text to set as name.")
 
 
-@app.on_message(filters.command("delpfp", prefixes=ASSISTANT_PREFIX) & SUDOERS)
+@app.on_message(filters.command("delpfp") & SUDOERS)
 async def del_pfp(client, message):
     from YukkiMusic.core.userbot import assistants
 
@@ -91,7 +91,7 @@ async def del_pfp(client, message):
             await eor(message, text=e)
 
 
-@app.on_message(filters.command("delallpfp", prefixes=ASSISTANT_PREFIX) & SUDOERS)
+@app.on_message(filters.command("delallpfp") & SUDOERS)
 async def delall_pfp(client, message):
     from YukkiMusic.core.userbot import assistants
 
