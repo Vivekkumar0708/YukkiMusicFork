@@ -12,10 +12,7 @@
 * Multi-Language support
 
 
-# ⚡️ Getting Started [[Documentation](https://notreallyshikhar.gitbook.io/yukkimusicbot/)]
-
-> The official [documentation site](https://notreallyshikhar.gitbook.io/yukkimusicbot/) contains a lot of information. The best place to start is from the deployment section.
-
+> hello
 ## 🚀 Heroku Deployment
 
 <h4>Click the button below to deploy Yukki Music Bot on Heroku!</h4>    
