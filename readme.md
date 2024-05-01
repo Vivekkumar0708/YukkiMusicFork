@@ -49,12 +49,13 @@ If you want to say **thank you** or/and support active development of YukkiMusic
 - Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your personal blog.
 
 Together, we can make **YukkiMusicBot** better!
+
 # 📑 Acknowledgement / Credits
 
 Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
 
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Py-Tgcalls](https://github.com/pytgcalls/py-tgcalls 
+- [Py-Tgcalls](https://github.com/pytgcalls/py-tgcalls)
 - [Yukki Music Bot](https://github.com/TeamYukki/YukkiMusicBot)
 - [TheHamkerCat](https://github.com/TheHamkerCat)
 - [Aarav Arora](https://github.com/axrav)
