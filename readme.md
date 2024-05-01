@@ -9,10 +9,9 @@
 * Youtube, Soundcloud, Apple Music, Spotify, Resso, Live Streams and Telegram Audios & Videos support.
 * Written from scratch, making it stable and less crashes with attractive thumbnails.
 * Loop, Seek, Shuffle, Specific Skip, Playlists etc support
-* Multi-Language support
+* Only English Language support
 
 
-> hello
 ## 🚀 Heroku Deployment
 
 <h4>Click the button below to deploy Yukki Music Bot on Heroku!</h4>    
@@ -54,8 +53,8 @@ START_IMG_URL - AN IMAGE LINK THAT YOU WANT TO SEND WHEN /start IS USED
 Reach out to the maintainer at one of the following places:
 
 - [GitHub Issues](https://github.com/TeamYukki/yukkimusicbot/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
-- Contact options listed on [this GitHub profile](https://github.com/TeamYukki)
-- [Telegram Support](https://t.me/YukkiSupport)
+- Contact  [Telegram profile](https://t.me/vivekkumar0708)
+- [Telegram Support](https://t.me/vk_zone)
 
 If you want to say **thank you** or/and support active development of YukkiMusicBot:
 
@@ -76,7 +75,6 @@ Special thanks to these amazing projects/people which/who help power Yukki Music
 <p align="center">
 <a href="https://github.com/pyrogram/pyrogram"> <img src="https://img.shields.io/badge/Pyrogram-black?style=for-the-badge&logo=github" alt="Pyrogram" /> </a>
 <a href="https://github.com/pytgcalls/pytgcalls"> <img src="https://img.shields.io/badge/PyTgCalls-black?style=for-the-badge&logo=github" alt="Pytgcalls" /> </a>
-<a href="https://github.com/Callsmusic"> <img src="https://img.shields.io/badge/CallsMusic-black?style=for-the-badge&logo=github" alt="Callsmusic" /> </a>
 <a href="https://github.com/AnonymousX1025"> <img src="https://img.shields.io/badge/Anonymous-black?style=for-the-badge&logo=github" alt="Anonymous" /> </a>
 <a href="https://github.com/NotReallyShikhar"> <img src="https://img.shields.io/badge/Shikhar-black?style=for-the-badge&logo=github" alt="Shikhar" /> </a>
 <a href="https://github.com/TheHamkerCat"> <img src="https://img.shields.io/badge/TheHamkerCat-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
