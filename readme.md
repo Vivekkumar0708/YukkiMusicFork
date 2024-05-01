@@ -21,6 +21,13 @@
 <h4>Click the button below to deploy Yukki Music Bot on Heroku!</h4>    
 <a href="https://dashboard.heroku.com/new?template=https://github.com/Vivekkumar0708/YukkiMusicFork/blob/master"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a>
 
+
+## 🖇 VPS Deployment
+
+Checkout [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
+
+
+
 ## CONFIG
 ```
 API_ID - GET IT FROM my.telegram.org
@@ -37,10 +44,6 @@ ASSISTANT_LEAVE_TIME - TIME AFTER ASSISITANT AUTOMATICALLY LEAVE CHATS REMEMBER 
 SET_CMDS - SET THIS TRUE FOR WHEN Bot Run Automatically Bot Set HER COMMAND MENU
 START_IMG_URL - AN IMAGE LINK THAT YOU WANT TO SEND WHEN /start IS USED
 ```
-## 🖇 VPS Deployment
-
-Checkout [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
-
 
 # 🏷 Support / Assistance
 
