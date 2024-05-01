@@ -60,7 +60,5 @@ Special thanks to these amazing projects/people which/who help power Yukki Music
 - [TheHamkerCat](https://github.com/TheHamkerCat)
 - [Aarav Arora](https://github.com/axrav)
 - [Pranav Saraswat](https://github.com/Pranav-Saraswat)
-<a href="#" onclick="copyToClipboard('sudo apt update && sudo apt install')">Copy Command</a>
-
 
 Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
