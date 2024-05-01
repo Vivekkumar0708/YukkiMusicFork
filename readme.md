@@ -54,11 +54,17 @@ Together, we can make **YukkiMusicBot** better!
 
 Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
 
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Py-Tgcalls](https://github.com/pytgcalls/py-tgcalls)
-- [Yukki Music Bot](https://github.com/TeamYukki/YukkiMusicBot)
-- [TheHamkerCat](https://github.com/TheHamkerCat)
-- [Aarav Arora](https://github.com/axrav)
-- [Pranav Saraswat](https://github.com/Pranav-Saraswat)
+<h3 align="center">
+    ─「 ᴄʀᴇᴅɪᴛs 」─
+</h3>
 
-Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
+<p align="center">
+<a href="https://github.com/pyrogram/pyrogram"> <img src="https://img.shields.io/badge/Pyrogram-black?style=for-the-badge&logo=github" alt="Pyrogram" /> </a>
+<a href="https://github.com/pytgcalls/pytgcalls"> <img src="https://img.shields.io/badge/PyTgCalls-black?style=for-the-badge&logo=github" alt="Pytgcalls" /> </a>
+<a href="https://github.com/Callsmusic"> <img src="https://img.shields.io/badge/CallsMusic-black?style=for-the-badge&logo=github" alt="Callsmusic" /> </a>
+<a href="https://github.com/AnonymousX1025"> <img src="https://img.shields.io/badge/Anonymous-black?style=for-the-badge&logo=github" alt="Anonymous" /> </a>
+<a href="https://github.com/NotReallyShikhar"> <img src="https://img.shields.io/badge/Shikhar-black?style=for-the-badge&logo=github" alt="Shikhar" /> </a>
+<a href="https://github.com/TheHamkerCat"> <img src="https://img.shields.io/badge/TheHamkerCat-black?style=for-the-badge&logo=github" alt="TheHamkerCat" /> </a>
+</p>
+
+- <b> _sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [ᴛᴇᴀᴍ ʏᴜᴋᴋɪ](https://github.com/TeamYukki) ғᴏʀ [ʏᴜᴋᴋɪ ᴍᴜsɪᴄ ʙᴏᴛ](https://github.com/TeamYukki/YukkiMusicBot)_ </b>
