@@ -42,8 +42,6 @@ app = YukkiBot()
 
 # Assistant Client
 userbot = Userbot()
-# Assistant prefix
-ASSISTANT_PREFIX = config.ASSISTANT_PREFIX
 
 from .platforms import *
 
@@ -55,20 +53,8 @@ Resso = RessoAPI()
 SoundCloud = SoundAPI()
 Telegram = TeleAPI()
 
-API_ID = config.API_ID
-API_HASH = config.API_HASH
-ALLOW_EXCL = "True"
-CASH_API_KEY = "8VDZ7439GFVSMWLE"
-DB_URI = ""
-EVENT_LOGS = config.LOG_GROUP_ID
-DEL_CMDS = "True"
-MONGO_DB_URI = config.MONGO_DB_URI
 
-START_IMG = config.START_IMG_URL
-SUPPORT_CHAT = config.SUPPORT_GROUP.split("/")[-1]
 TEMP_DOWNLOAD_DIRECTORY = "downloads"
-TOKEN = config.BOT_TOKEN
-WORKERS = 8
 
 telethn = TelegramClient("YukkiMusic", API_ID, API_HASH)
 
