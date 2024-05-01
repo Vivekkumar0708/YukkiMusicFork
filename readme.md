@@ -1,5 +1,3 @@
-### USE ONLY MASTER BRANCH  FOR DEPLOYMENT BECAUSE THIS IS STABLE
-### DEV BEANCH IN DEVELOPMENT YOU HAVE TO SEE MANY ERROR'S
 <img src="https://telegra.ph/file/c0e014ff34f34d1056627.png" align="right" width="200" height="200"/>
 
 # Yukki Music Bot <img src="https://img.shields.io/github/v/release/Vivekkumar0708/YukkiMusicFork?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
