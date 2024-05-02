@@ -52,7 +52,7 @@ STRING_SESSION - A PYROGRAM V2 STRING SESSION
 
 Reach out to the maintainer at one of the following places:
 
-- [GitHub Issues](https://github.com/TeamYukki/yukkimusicbot/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
+- [GitHub Issues](https://github.com/vivekkumar0708/YukkiMusicFork/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
 - Contact  [Telegram profile](https://t.me/vivekkumar0708)
 - [Telegram Support](https://t.me/vk_zone)
 
