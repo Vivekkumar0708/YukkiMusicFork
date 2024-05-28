@@ -17,64 +17,69 @@ from ..logging import LOGGER
 assistants = []
 assistantids = []
 
-
-class Userbot(Client):
-    def __init__(self):
-        if config.STRING1:
-            self.one = Client(
+if config.STRING1:
+    a1 = Client(
                 "YukkiString1",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING1),
                 no_updates=True,
             )
-        else:
-            self.one = None
-
-        if config.STRING2:
-            self.two = Client(
+else:
+    a1 = None
+if config.STRING2:
+    a2 = Client(
                 "YukkiString2",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING2),
                 no_updates=True,
             )
-        else:
-            self.two = None
-
-        if config.STRING3:
-            self.three = Client(
+ else:
+    a2 = None
+if config.STRING3:
+    a3 = Client(
                 "YukkiString3",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING3),
                 no_updates=True,
             )
-        else:
-            self.three = None
+ else:
+    a3 = None
 
-        if config.STRING4:
-            self.four = Client(
+ if config.STRING4:
+    a4 = Client(
                 "YukkiString4",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING4),
                 no_updates=True,
             )
-        else:
-            self.four = None
+ else:
+    a4 = None
 
-        if config.STRING5:
-            self.five = Client(
+if config.STRING5:
+    a5 = Client(
                 "YukkiString5",
                 api_id=config.API_ID,
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING5),
                 no_updates=True,
             )
-        else:
-            self.five = None
+else:
+    a5 = None
 
+
+
+
+class Userbot(Client):
+    def __init__(self):
+        self.one = a1
+        self.two = a2
+        self.three = a3
+        self.four = a4
+        self.five = a5
     async def start(self):
         LOGGER(__name__).info(f"Starting Assistant Clients")
         if config.STRING1:
