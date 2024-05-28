@@ -19,58 +19,56 @@ assistantids = []
 
 if config.STRING1:
     a1 = Client(
-                "YukkiString1",
-                api_id=config.API_ID,
-                api_hash=config.API_HASH,
-                session_string=str(config.STRING1),
-                no_updates=True,
+        "YukkiString1",
+        api_id=config.API_ID,
+        api_hash=config.API_HASH,
+        session_string=str(config.STRING1),
+        no_updates=True,
     )
 else:
     a1 = None
 if config.STRING2:
     a2 = Client(
-                "YukkiString2",
-                api_id=config.API_ID,
-                api_hash=config.API_HASH,
-                session_string=str(config.STRING2),
-                no_updates=True,
+        "YukkiString2",
+        api_id=config.API_ID,
+        api_hash=config.API_HASH,
+        session_string=str(config.STRING2),
+        no_updates=True,
     )
 else:
     a2 = None
 if config.STRING3:
     a3 = Client(
-                "YukkiString3",
-                api_id=config.API_ID,
-                api_hash=config.API_HASH,
-                session_string=str(config.STRING3),
-                no_updates=True,
+        "YukkiString3",
+        api_id=config.API_ID,
+        api_hash=config.API_HASH,
+        session_string=str(config.STRING3),
+        no_updates=True,
     )
 else:
     a3 = None
 
 if config.STRING4:
     a4 = Client(
-                "YukkiString4",
-                api_id=config.API_ID,
-                api_hash=config.API_HASH,
-                session_string=str(config.STRING4),
-                no_updates=True,
+        "YukkiString4",
+        api_id=config.API_ID,
+        api_hash=config.API_HASH,
+        session_string=str(config.STRING4),
+        no_updates=True,
     )
 else:
     a4 = None
 
 if config.STRING5:
     a5 = Client(
-                "YukkiString5",
-                api_id=config.API_ID,
-                api_hash=config.API_HASH,
-                session_string=str(config.STRING5),
-                no_updates=True,
+        "YukkiString5",
+        api_id=config.API_ID,
+        api_hash=config.API_HASH,
+        session_string=str(config.STRING5),
+        no_updates=True,
     )
 else:
     a5 = None
-
-
 
 
 class Userbot(Client):
@@ -80,6 +78,7 @@ class Userbot(Client):
         self.three = a3
         self.four = a4
         self.five = a5
+
     async def start(self):
         LOGGER(__name__).info(f"Starting Assistant Clients")
         if config.STRING1:
