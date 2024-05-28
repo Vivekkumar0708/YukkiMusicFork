@@ -35,7 +35,7 @@ if config.STRING2:
                 session_string=str(config.STRING2),
                 no_updates=True,
     )
- else:
+else:
     a2 = None
 if config.STRING3:
     a3 = Client(
@@ -45,10 +45,10 @@ if config.STRING3:
                 session_string=str(config.STRING3),
                 no_updates=True,
     )
- else:
+else:
     a3 = None
 
- if config.STRING4:
+if config.STRING4:
     a4 = Client(
                 "YukkiString4",
                 api_id=config.API_ID,
@@ -56,7 +56,7 @@ if config.STRING3:
                 session_string=str(config.STRING4),
                 no_updates=True,
     )
- else:
+else:
     a4 = None
 
 if config.STRING5:
