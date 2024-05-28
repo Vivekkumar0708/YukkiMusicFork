@@ -24,7 +24,7 @@ if config.STRING1:
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING1),
                 no_updates=True,
-            )
+    )
 else:
     a1 = None
 if config.STRING2:
@@ -34,7 +34,7 @@ if config.STRING2:
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING2),
                 no_updates=True,
-            )
+    )
  else:
     a2 = None
 if config.STRING3:
@@ -44,7 +44,7 @@ if config.STRING3:
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING3),
                 no_updates=True,
-            )
+    )
  else:
     a3 = None
 
@@ -55,7 +55,7 @@ if config.STRING3:
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING4),
                 no_updates=True,
-            )
+    )
  else:
     a4 = None
 
@@ -66,7 +66,7 @@ if config.STRING5:
                 api_hash=config.API_HASH,
                 session_string=str(config.STRING5),
                 no_updates=True,
-            )
+    )
 else:
     a5 = None
 
